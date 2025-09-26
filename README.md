@@ -152,3 +152,40 @@ p2p-tasks in Zerocoder courses
 - проведи слияние изменений, чтобы обе ветки объединились в ветку **main;**
 
 - удали второстепенную ветку.
+
+11. [PS02. основы работы с библиотекой Requests](./api-requests-assignment) - ДЗ урока PS02
+
+ *Для запуска:
+ - код сохранен в файл api_requests.py
+ - установить библиотеку requests если не установлена:
+
+    bash
+   ```
+    pip install requests
+    Запустите скрипт:
+   ```
+
+   bash
+   ```
+   python api_requests.py
+   ```
+Пример вывода (сокращенный):
+
+text
+
+=== ЗАДАНИЕ 1: Получение данных ===
+Статус-код: 200
+JSON ответ: {'total_count': 1000000, 'incomplete_results': False, 'items': [...]}
+
+=== ЗАДАНИЕ 2: Параметры запроса ===
+Статус-код: 200
+Количество записей: 10
+Запись 1:
+  Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  Body: quia et suscipit\nsuscipit recusandae consequuntur expedita...
+
+=== ЗАДАНИЕ 3: Отправка данных ===
+Статус-код: 201
+Ответ сервера:
+{'body': 'bar', 'id': 101, 'title': 'foo', 'userId': 1}
+
