@@ -193,4 +193,18 @@ JSON ответ: {'total_count': 1000000, 'incomplete_results': False, 'items': 
 {'body': 'bar', 'id': 101, 'title': 'foo', 'userId': 1}
 
 
-    
+**12. [PS03. Парсинг HTML с помощью BeautifulSoup](./parseBeautifulSoup) - ДЗ урока PS03
+**  
+
+Выполнить рендеринг игры, разработанной на уроке:
+игра получает английское слово и английское определение. Сделайте так, чтобы слова и определения этих слов были на русском. Для этого понадобится модуль googletrans
+ 
+с именно с версией 3.1.0a0
+
+Пример кода:
+```
+from googletrans import Translator
+translator = Translator()
+result = translator.translate("dog", dest="ru")
+```
+
