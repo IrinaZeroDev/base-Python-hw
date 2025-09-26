@@ -3,15 +3,11 @@ from pprint import pprint
 
 def task1():
     print("=== ЗАДАНИЕ 1: Получение данных ===")
-    
     url = "https://api.github.com/search/repositories"
-    params = {"q": "html"}
-    
+    params = {"q": "language:html"}
     response = requests.get(url, params=params)
-    print("Статус-код:", response.status_code)
-    print("JSON ответ (первые 200 символов):")
-    pprint(response.json(), depth=1)
-    print()
+    print(f"Status code: {response.status_code}")
+    print(response.json())
 
 def task2():
     print("=== ЗАДАНИЕ 2: Параметры запроса ===")
