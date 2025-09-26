@@ -203,7 +203,7 @@ translator = Translator()
 result = translator.translate("dog", dest="ru")
 ```
 
-13. [PS04. Взаимодействие с динамическим контентом. Использование Selenium) - ДЗ урока PS04 
+13. [PS04. Взаимодействие с динамическим контентом. Использование Selenium]((./parseSelenium)) - ДЗ урока PS04 
 
 ### Задание
 
