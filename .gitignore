@@ -1,0 +1,44 @@
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.venv/
+.python-version
+utils.cpython-39.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+images/.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Folders
+do_not_commit_this/
+tmp_data/
+wandb/
+test/
+catboost_info/
+gauss-rank-scaler/
+data/fs_task1_10f.csv
+data/fs_task2_45f.csv
+data/fs_task3_310f.csv
+data/pivot_task.csv
+data/stepik_rides.csv
+data/test_data.csv
+data/car_test_solution.csv
+others/
+notebooks/ca
+notebooks/cacher_dir
+notebooks/catboost_info
+notebooks/runs
+notebooks/src
+notebooks/wandb
+Parsing/
+*Solution.csv
+_*
+y_*
+*.json
+Untitled*
+tmp_data.csv
